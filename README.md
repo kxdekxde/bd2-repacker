@@ -2,7 +2,7 @@
 A simple tool useful to mod [Brown Dust 2](https://www.browndust2.com/en-us/) bundles. Thanks to Bingle for the help with this repacker.
 
 
-__NOTE: This tool only works with .skel files, not with .json files. To use mods with .json files you can use BrownDustX by Synae.__
+#### NOTE: This tool only works with .skel files, not with .json files. To use mods with .json files you can use BrownDustX by Synae.
 
 ## Before to use this tool:
 
