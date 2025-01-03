@@ -9,6 +9,7 @@ A simple tool useful to mod [Brown Dust 2](https://www.browndust2.com/en-us/) bu
 Download and install [.NET SDK 8](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.404-windows-x64-installer).
 Download and install [Python](https://www.python.org/downloads/), along with all of the addons included (pip, etc).
 Download and install [Microsoft C++ Build Tools](https://aka.ms/vs/17/release/vs_BuildTools.exe), and after that install the necessary libraries following [this video](https://files.catbox.moe/vqsuix.mp4).
+
 Open a Windows PowerShell window as Admin, type: pip install UnityPy. And hit enter to install UnityPy for Python.
 
 
