@@ -15,14 +15,15 @@ Open a Windows PowerShell window as Admin, type: pip install UnityPy. And hit en
 
 Usage for repacking:
 
-1. Run the script _Y___make_backup_before_update_game.py_ before to update your game if you already have mods located in the game folder. The script will make a backup of your mods to the folder "Backup" so you will not lose your mods when you update your game.
-2. Update your game with no worries.
-3. Go to the folder "Backup" and copy the folders there to "Modded Bundles".
-4. Run _A___GET_RAW_FILES.bat_, the .bat file will run the scripts to get the raw files from the game folders and it will make a copy to the folder "Original Bundles".
-5. Run _1___REPACKER.bat_ to start the repacking process. And now just wait, the Terminal window will close when the repacking is done.
-6. If everything worked with no issues you will see your repacked files saved in the folder "Repacked".
-7. Copy those folders from "Repacked" and paste them in your game folder  "Gamfs_BrownDust II" manually, located in %USERPROFILE%\AppData\LocalLow\Unity\Gamfs_BrownDust II.
-8. Replace the files and that's it.
+1. Run the script _0___CREATE_MISSING_FOLDERS.py_ to get the needed folders.
+2. Run the script _Y___make_backup_before_update_game.py_ before to update your game if you already have mods located in the game folder. The script will make a backup of your mods to the folder "Backup" so you will not lose your mods when you update your game.
+3. Update your game with no worries.
+4. Go to the folder "Backup" and copy the folders there to "Modded Bundles".
+5. Run _A___GET_RAW_FILES.bat_, the .bat file will run the scripts to get the raw files from the game folders and it will make a copy to the folder "Original Bundles".
+6. Run _1___REPACKER.bat_ to start the repacking process. And now just wait, the Terminal window will close when the repacking is done.
+7. If everything worked with no issues you will see your repacked files saved in the folder "Repacked".
+8. Copy those folders from "Repacked" and paste them in your game folder  "Gamfs_BrownDust II" manually, located in %USERPROFILE%\AppData\LocalLow\Unity\Gamfs_BrownDust II.
+9. Replace the files and that's it.
 
 NOTE: the script _Z___clean_folders.py_ is just to clean the folders used by the tool when you finished to repack your mods, so you can just ignore this script and delete the files or folders you don't need anymore manually. This script doesn't clean the folder "Repacked".
 
