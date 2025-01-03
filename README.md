@@ -14,7 +14,7 @@ A simple tool useful to mod [Brown Dust 2](https://www.browndust2.com/en-us/) bu
 
 
 
-## Usage for repack:
+## Usage to repack:
 
 1. Run the script _0___CREATE_MISSING_FOLDERS.py_ to get the needed folders.
 2. Run the script _Y___make_backup_before_update_game.py_ before to update your game if you already have mods located in the game folder. The script will make a backup of your mods to the folder "Backup" so you will not lose your mods when you update your game.
