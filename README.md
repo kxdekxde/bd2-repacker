@@ -26,7 +26,7 @@ A simple tool useful to mod [Brown Dust 2](https://www.browndust2.com/en-us/) bu
 8. Copy those folders from "Repacked" and paste them in your game folder  "Gamfs_BrownDust II" manually, located in %USERPROFILE%\AppData\LocalLow\Unity\Gamfs_BrownDust II.
 9. Replace the files and that's it.
 
-NOTE: the script _Z___clean_folders.py_ is just to clean the folders used by the tool when you finished to repack your mods, so you can just ignore this script and delete the files or folders you don't need anymore manually. This script doesn't clean the folder "Repacked".
+NOTE: The script _Z___clean_folders.py_ is just to clean the folders used by the tool when you finished to repack your mods, so you can just ignore this script and delete the files or folders you don't need anymore manually. This script doesn't clean the folder "Repacked".
 
 
 ## Usage to install mods:
