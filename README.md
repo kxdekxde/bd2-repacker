@@ -4,7 +4,7 @@ A simple tool useful to mod the bundles of the popular game [Brown Dust 2](https
 
 
 
-Before to use this tool:
+## Before to use this tool:
 
 Download and install [.NET SDK 8](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.404-windows-x64-installer).
 Download and install [Python](https://www.python.org/downloads/), along with all of the addons included (pip, etc).
@@ -13,7 +13,7 @@ Open a Windows PowerShell window as Admin, type: pip install UnityPy. And hit en
 
 
 
-Usage for repacking:
+## Usage for repacking:
 
 1. Run the script _0___CREATE_MISSING_FOLDERS.py_ to get the needed folders.
 2. Run the script _Y___make_backup_before_update_game.py_ before to update your game if you already have mods located in the game folder. The script will make a backup of your mods to the folder "Backup" so you will not lose your mods when you update your game.
@@ -28,7 +28,7 @@ Usage for repacking:
 NOTE: the script _Z___clean_folders.py_ is just to clean the folders used by the tool when you finished to repack your mods, so you can just ignore this script and delete the files or folders you don't need anymore manually. This script doesn't clean the folder "Repacked".
 
 
-Usage to install mods:
+## Usage to install mods:
 
 1. Run _D___copy_raw_data_files_2.py_ to copy the raw files from the game folder directly to the folders "Original Bundles" and "Modded Bundles", and run _C___delete_unnecessary_files.py_ to remove any not necessary file inside these folders.
 2. Run _3___add_bundle_extension.py_.
@@ -43,6 +43,6 @@ Usage to install mods:
 11. Replace the files and that's it.
 
 
-Usage to install your own mods:
+## Usage to install your own mods:
 
 If you make your own mods you can use this tool to save some time too. You can use this tool to extract/export the assets to "Extracted Assets" and then you can start to work with the assets from there, save the changes to the assets and when you're ready to import the assets back to the bundles you can run _5___bingle_kxde_repacker_LZ4_compressor___auto-RGBA32.py_ and _6___remove_bundle_extension.py_ and your modified files will be saved to "Repacked". Then just move them to your game folder and that's it.
